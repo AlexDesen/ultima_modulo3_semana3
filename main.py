@@ -2,7 +2,7 @@ def adicionar_itens_estoque():
     itens_estoque = []
     nome = input('Nome do iten: ')
     descricao = input('Descrição do iten: ')
-    quantidade = input('Quantidade do iten: ')
+    quantidade = int(input('Quantidade do iten: '))
     itens = {'nome':nome, 'descricao':descricao,'quantidade':quantidade}
     itens_estoque.append(itens)
     print(itens_estoque)
